@@ -131,7 +131,7 @@ Moltbot 会自动发现并加载 `extensions/` 下的插件。
 ```bash
 # 克隆到 Moltbot 的 extensions 目录
 cd your-moltbot-project
-git clone https://github.com/你的用户名/moltbot-onebot.git extensions/onebot
+git clone https://github.com/123zcr/moltbot-onebot.git extensions/onebot
 
 # 安装依赖（如果有）
 cd extensions/onebot
@@ -148,7 +148,7 @@ cd extensions/onebot
 # 登录 npm（需要 npm 账号）
 npm login
 
-# 发布（@moltbot 是 scoped 包，需要 --access public）
+# 发布（scoped 包需要 --access public）
 npm publish --access public
 ```
 
@@ -172,9 +172,7 @@ npm install @superman1/moltbot-onebot
 }
 ```
 
-**注意**：`@moltbot` 是一个 npm scope（组织名），你需要：
-1. 在 npm 上注册账号
-2. 创建或加入 `@moltbot` 组织，或者改成你自己的 scope（如 `@你的用户名/onebot`）
+**已发布到 npm**：`@superman1/moltbot-onebot`
 
 ### 插件加载机制
 
