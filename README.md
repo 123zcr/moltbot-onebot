@@ -138,21 +138,7 @@ cd extensions/onebot
 npm install --omit=dev
 ```
 
-### 方式三：发布到 npm（可选）
-
-如果想让用户通过 `npm install` 安装，需要先发布到 npm：
-
-```bash
-cd extensions/onebot
-
-# 登录 npm（需要 npm 账号）
-npm login
-
-# 发布（scoped 包需要 --access public）
-npm publish --access public
-```
-
-发布后，用户可以这样安装：
+### 方式三：从 npm 安装
 
 ```bash
 npm install @superman1/moltbot-onebot
@@ -172,7 +158,7 @@ npm install @superman1/moltbot-onebot
 }
 ```
 
-**已发布到 npm**：`@superman1/moltbot-onebot`
+npm 包地址：https://www.npmjs.com/package/@superman1/moltbot-onebot
 
 ### 插件加载机制
 
