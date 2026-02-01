@@ -1,0 +1,11 @@
+{
+  "id": "onebot",
+  "name": "OneBot (QQ/NapCat)",
+  "version": "0.1.0",
+  "description": "OneBot v11 protocol plugin for QQ via NapCat/Lagrange",
+  "configSchema": {
+    "type": "object",
+    "properties": {}
+  },
+  "channels": ["onebot"]
+}
